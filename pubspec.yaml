@@ -15,7 +15,6 @@ dependencies:
     sdk: flutter
   flutter_screenutil: ^5.9.3
   flutter_svg: ^2.0.10+1
-  gap: ^3.0.1
   iconsax: ^0.0.8
 
 dev_dependencies:

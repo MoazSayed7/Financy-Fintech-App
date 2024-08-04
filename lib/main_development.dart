@@ -4,7 +4,7 @@ import 'package:flutter_svg/flutter_svg.dart';
 
 import 'core/routing/app_router.dart';
 import 'fintech_app.dart';
- 
+
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
 

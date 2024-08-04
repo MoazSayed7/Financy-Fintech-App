@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:gap/gap.dart';
 import 'package:iconsax/iconsax.dart';
 
+import '../../../core/helpers/spacing.dart';
 import '../../../core/theming/colors.dart';
 import '../../../core/theming/styles.dart';
 import '../../../core/widgets/app_text_button.dart';
@@ -60,17 +60,17 @@ class ProfileScreen extends StatelessWidget {
           Column(
             crossAxisAlignment: CrossAxisAlignment.center,
             children: [
-              Gap(190.h),
+              verticalSpace(190),
               Text(
                 'Client Name',
                 style: TextStyles.font20DarkBlueSemiBold,
               ),
-              Gap(8.h),
+              verticalSpace(8),
               Text(
                 'example@email.com',
                 style: TextStyles.font14mediumDarkShadeOfGrayRegular,
               ),
-              Gap(24.h),
+              verticalSpace(24),
               Row(
                 mainAxisAlignment: MainAxisAlignment.center,
                 crossAxisAlignment: CrossAxisAlignment.center,
@@ -97,7 +97,7 @@ class ProfileScreen extends StatelessWidget {
                   ),
                 ],
               ),
-              Gap(24.h),
+              verticalSpace(24),
               SizedBox(
                 width: 327.w,
                 height: 200.h,

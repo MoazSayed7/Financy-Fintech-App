@@ -5,12 +5,11 @@ import 'package:iconsax/iconsax.dart';
 
 import '../../../core/helpers/spacing.dart';
 import '../../../core/models/transaction.dart';
-
 import '../../../core/theming/colors.dart';
 import '../../../core/widgets/section_header.dart';
 import '../../../core/widgets/transactions_list_view.dart';
-import 'widgets/wallet_top_bar.dart';
 import 'widgets/card.dart';
+import 'widgets/wallet_top_bar.dart';
 
 class WalletScreen extends StatelessWidget {
   final List<Transaction> transactions = [
